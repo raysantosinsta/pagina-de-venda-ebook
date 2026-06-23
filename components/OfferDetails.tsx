@@ -26,7 +26,7 @@ export function OfferDetails() {
       </ul>
 
       <a
-        href="https://pay.kiwify.com.br/Iy4LsUs"
+        href="https://go.hotmart.com/S106454503X?dp=1"
         target="_blank"
         rel="noopener noreferrer"
         className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-bts to-violet-500 px-6 py-4 text-base font-semibold text-white"

@@ -98,7 +98,7 @@ export default function Home() {
               className="flex flex-col gap-4 sm:flex-row sm:items-center"
             >
               <a
-                href="https://pay.kiwify.com.br/Iy4LsUs"
+                href="https://go.hotmart.com/S106454503X?dp=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-bts px-7 py-4 text-base font-semibold text-white shadow-glow transition hover:-translate-y-0.5 hover:bg-violet-500"
@@ -290,7 +290,7 @@ export default function Home() {
         <h2 className="mt-6 text-4xl font-semibold text-white sm:text-5xl">Sua Jornada Como ARMY Começa Hoje</h2>
         <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-slate-300">O guia rápido, confiável e com design premium que te ajuda a entrar no fandom com clareza, sem sentir vergonha de não saber nada.</p>
         <a
-          href="https://pay.kiwify.com.br/Iy4LsUs"
+          href="https://go.hotmart.com/S106454503X?dp=1"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-10 inline-flex items-center justify-center rounded-full bg-bts px-10 py-4 text-base font-semibold text-white transition hover:bg-violet-500"
