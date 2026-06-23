@@ -35,7 +35,7 @@ const chapters = [
 
 const bonus = [
   { title: 'Checklist ARMY', description: 'Verificação passo a passo para sentir que você já faz parte.', icon: CheckCircle2 },
-  { title: 'Quiz Exclusivo', description: 'Teste sua evolução com perguntas feitas para novas ARMYs.', icon: Sparkles },
+  { title: 'Quiz Exclusivo', description: 'Teste sua evolucão com perguntas feitas para novas ARMYs.', icon: Sparkles },
   { title: 'Desafio 7 Dias BTS', description: 'Rotina prática para viver o universo BTS desde o primeiro dia.', icon: Trophy },
 ];
 
