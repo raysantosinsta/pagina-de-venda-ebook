@@ -6,6 +6,10 @@ import { FeatureCard } from '../components/FeatureCard';
 import { FaqItem } from '../components/FaqItem';
 import { SectionHeading } from '../components/SectionHeading';
 import { TestimonialCard } from '../components/TestimonialCard';
+import { VslPlayer } from '../components/VslPlayer';
+import { OfferDetails } from '../components/OfferDetails';
+import { Author } from '../components/Author';
+import { SocialProof } from '../components/SocialProof';
 
 const features = [
   { title: 'História completa do BTS', description: 'Linha do tempo clara, com momentos que definem o sonho do grupo.', icon: Trophy },
@@ -84,6 +88,8 @@ export default function Home() {
                 Descubra a história do BTS, conheça os 7 integrantes, aprenda os termos da ARMY e saiba exatamente por onde começar.
               </motion.p>
             </div>
+
+            <VslPlayer videoUrl="https://drive.google.com/file/d/1Q0EwPxEA-gvXswr5bZFXKp1q16q5upEN/preview" />
 
             <motion.div
               initial={{ opacity: 0, y: 28 }}
@@ -237,10 +243,8 @@ export default function Home() {
 
       <section className="mt-24">
         <SectionHeading title="Depoimentos de quem já virou ARMY" subtitle="Histórias reais de fãs que saíram da dúvida para a confiança em poucos dias." />
-        <div className="mt-12 grid gap-6 lg:grid-cols-3">
-          {testimonials.map((item) => (
-            <TestimonialCard key={item.author} quote={item.quote} author={item.author} role={item.role} />
-          ))}
+        <div className="mt-12">
+          <SocialProof />
         </div>
       </section>
 
@@ -268,31 +272,7 @@ export default function Home() {
               <span className="rounded-full bg-bts/10 px-4 py-3 text-sm text-bts">Pagamento seguro e envio instantâneo</span>
             </div>
           </div>
-          <div className="rounded-[32px] border border-white/10 bg-[#0f0b1c] p-8 text-white shadow-glow">
-            <div className="flex flex-wrap items-center gap-3 text-sm text-slate-300">
-              <span className="rounded-full bg-white/5 px-3 py-2">Ebook Digital</span>
-              <span className="rounded-full bg-white/5 px-3 py-2">Bônus Premium</span>
-            </div>
-            <div className="mt-8 space-y-6">
-              <div className="rounded-3xl bg-white/5 p-5">
-                <p className="text-sm uppercase tracking-[0.28em] text-slate-300">Preço original</p>
-                <p className="mt-2 text-3xl font-semibold text-slate-100 line-through">R$49,90</p>
-              </div>
-              <div className="rounded-3xl bg-gradient-to-r from-bts to-violet-500 p-6 text-white shadow-[0_20px_60px_rgba(124,58,237,0.2)]">
-                <p className="text-sm uppercase tracking-[0.28em] text-slate-200">Preço especial</p>
-                <p className="mt-2 text-5xl font-semibold">R$9,90</p>
-                <p className="mt-3 text-sm text-slate-200">Oferta limitada para novas ARMYs que querem começar com segurança.</p>
-              </div>
-              <a
-                href="https://pay.kiwify.com.br/Iy4LsUs"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex w-full items-center justify-center rounded-full bg-black/90 px-6 py-4 text-base font-semibold text-white transition hover:-translate-y-0.5"
-              >
-                Quero Receber Meu Ebook
-              </a>
-            </div>
-          </div>
+          <OfferDetails />
         </div>
       </section>
 
