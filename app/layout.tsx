@@ -1,34 +1,36 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Guia de Sobrevivência do BTS para Novas ARMYs',
-  description: 'Landing page premium para vender o ebook Guia de Sobrevivência do BTS com copy otimizada, design elegante e oferta irresistível.',
-  metadataBase: new URL('https://seubtsebook.com'),
+  title: 'ARMY Command Center | Organize campanhas BTS com mais clareza',
+  description: 'Entre na lista de teste do ARMY Command Center, uma central para fanbases BTS acompanharem campanhas, metas de streaming e próximas ações.',
+  metadataBase: new URL('https://armycommandcenter.com'),
   openGraph: {
-    title: 'Guia de Sobrevivência do BTS para Novas ARMYs',
-    description: 'Descubra tudo sobre BTS, membros, álbuns, termos da ARMY e comece com confiança.',
+    title: 'ARMY Command Center | Organize campanhas BTS com mais clareza',
+    description: 'Uma central para líderes de fanbase acompanharem resultados, metas e mobilização em campanhas ARMY.',
     type: 'website',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Guia de Sobrevivência do BTS para Novas ARMYs',
+        alt: 'ARMY Command Center - central para campanhas BTS',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Guia de Sobrevivência do BTS para Novas ARMYs',
-    description: 'A landing page perfeita para quem quer entrar no fandom BTS com segurança e estilo.',
+    title: 'ARMY Command Center | Organize campanhas BTS com mais clareza',
+    description: 'Painel, metas e próximas ações para campanhas ARMY.',
   },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <body>{children}</body>
+      <body>
+        {children}
+      </body>
     </html>
   );
 }

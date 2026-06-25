@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss';
+﻿import type { Config } from 'tailwindcss';
 
 const config: Config = {
   darkMode: 'class',
@@ -6,15 +6,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bts: '#7C3AED',
-        btsLight: '#C4B5FD',
-        surface: '#111014',
+        accent: '#E6192E',
+        ink: '#1A1A1A',
+        paper: '#F2F2F2',
+        bts: '#E6192E',
+        btsLight: '#F2F2F2',
+        surface: '#1A1A1A',
       },
       boxShadow: {
-        glow: '0 30px 90px rgba(124, 58, 237, 0.24)',
+        glow: '0 24px 90px rgba(230, 25, 46, 0.18)',
       },
       backgroundImage: {
-        'purple-wave': 'radial-gradient(circle at top, rgba(124,58,237,0.28), transparent 45%), radial-gradient(circle at bottom right, rgba(255,255,255,0.08), transparent 22%)',
+        'red-depth': 'linear-gradient(135deg, rgba(230,25,46,0.18), rgba(26,26,26,0.2) 42%, rgba(242,242,242,0.04))',
       },
     },
   },
